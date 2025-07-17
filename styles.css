@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Green_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 50pt;
+}
+.title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif__;
+    color: white;
+}
+
+.header{
+    background-color: linear-gradient(135deg, #ff7e5f, #6a82fb); /* orange to blue */
+    height: 50pt;
+    background-image: url(Sidebanner_green1-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.leftlinks{
+    list-style: none;
+    padding: 0;
+    margin-left: -5pt;
+    margin-top: -5pt;
+    display: inline-block;
+    float: left;
+}
+.leftlinks ul li {
+    display: inline-block; /* Makes list items horizontal */
+    margin-right: 20px;    /* Adds space between items */
+}
+.rightlinks{
+    margin-right: 50pt;
+    margin-top: 5pt;
+    display: inline-block;
+    float: right;
+}
+.weblinks a {
+    display: inline-block;
+    color: white;
+    
+}
+a{
+    text-decoration: none;;
+}
+img{
+    width: 35%;
+    height: 35%;
+}
