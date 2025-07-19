@@ -6,47 +6,128 @@ body {
     background-repeat: no-repeat;
     background-position: center 50pt;
 }
+
 .title{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif__;
     color: white;
 }
 
+.subtitle{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif__;
+    color: white;
+    margin-top: -3pt;
+}
+
 .header{
     background-color: linear-gradient(135deg, #ff7e5f, #6a82fb); /* orange to blue */
     height: 50pt;
-    background-image: url(Sidebanner_green1-removebg-preview.png);
+    background-image: url(Green_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
+
 .leftlinks{
     list-style: none;
     padding: 0;
     margin-left: -5pt;
-    margin-top: -5pt;
+    margin-top: 5pt;
     display: inline-block;
     float: left;
 }
+
 .leftlinks ul li {
     display: inline-block; /* Makes list items horizontal */
-    margin-right: 20px;    /* Adds space between items */
+    margin-right: 50px;    /* Adds space between items */
 }
+
 .rightlinks{
     margin-right: 50pt;
-    margin-top: 5pt;
+    margin-top: 18pt;
+    margin-right: 18pt;
     display: inline-block;
     float: right;
 }
+
+.rightlinks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .weblinks a {
     display: inline-block;
     color: white;
     
 }
+
 a{
     text-decoration: none;;
 }
+
 img{
     width: 35%;
     height: 35%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.left-part {
+    width: 60%;
+    min-height: 400px; /* Adjust height as needed */
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.right-part {
+    width: 40%;
+    min-height: 400px; /* Adjust height as needed */
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; /* Example: gold */
+    font-size: 12pt; /* Change as needed */
+}
+
+.img_myface{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 12pt;
+    height: 614px;
+    width: 460px;
+}
+.rightside_editmargin{
+    margin-top: -3pt;
+    color: white;
+}
+
+.sc_class{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 216px;
+    width: 384px;
+}
+
+.center-header {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+    font-weight: bold;
+    pointer-events: none; /* Prevents overlap with links */
+}
+.header {
+    position: relative;
 }
